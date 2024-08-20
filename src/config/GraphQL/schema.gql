@@ -1,0 +1,11 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  sum(input: SumInpModel!): Float!
+}
+
+input SumInpModel {
+  numbers: [Float!]!
+}
